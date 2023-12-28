@@ -1,6 +1,21 @@
+
+
+
 .header, .footer, .con1 {
     background-color: indigo;
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
 
+.header a {
+    color: white;
+}
+
+.hero-title {
+    font: 48px bolder;
+}
+
+.con3 {
+    background-color: #E5E7EB;
+    font: black;
+}
