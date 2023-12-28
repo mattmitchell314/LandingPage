@@ -11,11 +11,24 @@
     color: white;
 }
 
-.hero-title {
-    font: 48px bolder;
+.con1-title {
+    font: bold 48px white;
+}
+
+.con2-title {
+    font: bolder 36px black;
+}
+
+.button {
+    color: white;
+    background-color: plum;
 }
 
 .con3 {
-    background-color: #E5E7EB;
-    font: black;
+    background-color: lavender;
+    font: italic 36px black;
+}
+
+.con3 .attribution {
+    font: normal bold 36px black;
 }
