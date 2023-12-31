@@ -1,8 +1,5 @@
-
-
-
 .header, .footer, .con1 {
-    background-color: indigo;
+    background-color: black;
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
@@ -11,24 +8,62 @@
     color: white;
 }
 
-.con1-title {
-    font: bold 48px white;
+.header-title {
+    font-size: 24px;
 }
 
-.con2-title {
-    font: bolder 36px black;
+.containers {
+    display: flex;
+    flex-direction: column;
 }
 
-.button {
-    color: white;
-    background-color: plum;
+.con1 .title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.con1 {
+    font-size: 18px;
+    display: flex;
+}
+
+.con2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.con2 .images {
+    display: flex;
+}
+
+.con2 .title {
+    font-size: 36px;
+    font-weight: bolder;
+    align-items: center;
 }
 
 .con3 {
     background-color: lavender;
-    font: italic 36px black;
+    font-size: 36px;
+    font-style: italic;
 }
 
 .con3 .attribution {
-    font: normal bold 36px black;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.con4 {
+    background-color: indigo;
+    color: white;
+}
+
+.con4 .title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    background-color: indigo;
+    color: white;
 }
