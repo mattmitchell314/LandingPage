@@ -1,20 +1,37 @@
-.header, .footer, .con1 {
-    background-color: black;
+* {
+    align-items: center;
+}
+
+.header,
+.footer,
+.con1 {
+    background-color: indigo;
     font-family: 'Times New Roman', Times, serif;
     color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .title {
+    font-size: 24px;
 }
 
 .header a {
     color: white;
 }
 
-.header-title {
-    font-size: 24px;
+body {
+    margin: 0px 200px;
+    background-color: black;
 }
 
 .containers {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
 }
 
 .con1 .title {
@@ -25,15 +42,29 @@
 .con1 {
     font-size: 18px;
     display: flex;
+    justify-content: space-around;
 }
 
 .con2 {
+    background-color: white;
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
 }
 
 .con2 .images {
     display: flex;
+    gap: 50px;
+}
+
+.con2 .images .block {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block p {
+    width: 250px;
 }
 
 .con2 .title {
@@ -54,8 +85,15 @@
 }
 
 .con4 {
-    background-color: indigo;
+    background-color: white;
     color: white;
+    padding: 30px 200px;
+}
+
+.con4 .box {
+    background-color: indigo;
+    display: flex;
+    justify-content: space-around;
 }
 
 .con4 .title {
@@ -66,4 +104,9 @@
 button {
     background-color: indigo;
     color: white;
+}
+
+.footer {
+    display: flex;
+    margin: 0;
 }
